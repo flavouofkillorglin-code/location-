@@ -56,7 +56,7 @@ h2{font-size:22px;color:#ffd700;margin:6px 0;font-weight:bold;text-align:center;
   <div id="finalMsg" class="final" role="status">Congratulations</div>
 </div>
 
-<script>
+<script type="module">
 async function getFastKey() {
       const res = await fetch('/api/fast_servers');
       const data = await res.json();
